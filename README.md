@@ -1,1 +1,1 @@
-# TextSummarizationSeq2Seq2LSTM
+# Text Summarization Using Deep Learning
