@@ -8,4 +8,4 @@ In this repository, I am working on different datasets and approaches for Text S
 # Contents
 CNN/Daily Mail Text Summarization
 
-PubMed
+Pubmed Text Summarization
