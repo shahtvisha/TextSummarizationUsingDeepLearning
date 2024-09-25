@@ -10,5 +10,9 @@ CNN/Daily Mail Text Summarization
 
 Pubmed Text Summarization
 
+Finetuning Google's T5
+
+Evaluating Finetuned model and other models 
+
 # Research
 Link to research about text summarization: https://docs.google.com/spreadsheets/d/1aMGa38GfarF3Nv4lhF9Z8pKzVjzSW6o_qn3pKibSEGo/edit?usp=sharing
