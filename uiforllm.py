@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/17KfMGTuR7UufBWdyOItw_sOf5UuzDNe7
 """
 
-!pip install streamlit transformers pyngrok
-
 import streamlit as st
 
 # Clear the data cache
