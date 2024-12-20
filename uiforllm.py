@@ -12,73 +12,139 @@ import streamlit as st
 
 # Data for demonstration purposes
 data = {
-    "RFP from West Bengal Electronic Industries Ltd.": {
-        "Functional_Requirements": [
-            {
-                "Requirement_ID": "1",
-                "Requirement_Description": "The system must authenticate and authorize users.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "2",
-                "Requirement_Description": "The system should enable users to perform e-KYC (Know Your Customer) checks using Aadhaar numbers.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "3",
-                "Requirement_Description": "The system must be able to store and retrieve Aadhaar number data in accordance with UIDAI guidelines.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "4",
-                "Requirement_Description": "The system should allow users to generate transaction reports.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "5",
-                "Requirement_Description": "The system should support integration with third-party services and APIs as required.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "6",
-                "Requirement_Description": "The system must provide an API for external applications to access its functionality.",
-                "Comments": ""
-            }
-        ],
-        "Non_Functional_Requirements": [
-            {
-                "Requirement_ID": "1",
-                "Requirement_Description": "The system should handle up to 5,000 transactions per day.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "2",
-                "Requirement_Description": "The system should respond within 100 milliseconds for most API calls.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "3",
-                "Requirement_Description": "The system should be horizontally scalable to handle future growth requirements.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "4",
-                "Requirement_Description": "The system should support at least IE, Firefox, and Google Chrome browsers.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "5",
-                "Requirement_Description": "The system should be designed for no single point of failure.",
-                "Comments": ""
-            },
-            {
-                "Requirement_ID": "6",
-                "Requirement_Description": "The system should comply with UIDAI guidelines for handling and storing Aadhaar data.",
-                "Comments": ""
-            }
-        ]
+  "General_Information_in_RFP": {
+    "Functional_Requirements": [
+      {
+        "Requirement_ID": "1",
+        "Requirement_Description": "The system must authenticate and authorize users.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "2",
+        "Requirement_Description": "The system should enable users to perform e-KYC (Know Your Customer) checks using Aadhaar numbers.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "3",
+        "Requirement_Description": "The system must be able to store and retrieve Aadhaar number data in accordance with UIDAI guidelines.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "4",
+        "Requirement_Description": "The system should allow users to generate transaction reports.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "5",
+        "Requirement_Description": "The system should support integration with third-party services and APIs as required.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "6",
+        "Requirement_Description": "The system must provide an API for external applications to access its functionality.",
+        "Comments": ""
+      }
+    ],
+    "Non_Functional_Requirements": [
+      {
+        "Requirement_ID": "1",
+        "Requirement_Description": "The system should handle up to 5,000 transactions per day.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "2",
+        "Requirement_Description": "The system should respond within 100 milliseconds for most API calls.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "3",
+        "Requirement_Description": "The system should be horizontally scalable to handle future growth requirements.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "4",
+        "Requirement_Description": "The system should support at least IE, Firefox, and Google Chrome browsers.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "5",
+        "Requirement_Description": "The system should be designed for no single point of failure.",
+        "Comments": ""
+      },
+      {
+        "Requirement_ID": "6",
+        "Requirement_Description": "The system should comply with UIDAI guidelines for handling and storing Aadhaar data.",
+        "Comments": ""
+      }
+    ]
+  },
+  "Document": "RFP from West Bengal Electronic Industries Ltd.",
+  "Functional_Requirements": [
+    {
+      "Requirement_ID": "1",
+      "Requirement_Description": "The system must authenticate and authorize users.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "2",
+      "Requirement_Description": "The system should enable users to perform e-KYC (Know Your Customer) checks using Aadhaar numbers.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "3",
+      "Requirement_Description": "The system must be able to store and retrieve Aadhaar number data in accordance with UIDAI guidelines.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "4",
+      "Requirement_Description": "The system should allow users to generate transaction reports.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "5",
+      "Requirement_Description": "The system should support integration with third-party services and APIs as required.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "6",
+      "Requirement_Description": "The system must provide an API for external applications to access its functionality.",
+      "Comments": ""
     }
+  ],
+  "Non_Functional_Requirements": [
+    {
+      "Requirement_ID": "1",
+      "Requirement_Description": "The system should handle up to 5,000 transactions per day.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "2",
+      "Requirement_Description": "The system should respond within 100 milliseconds for most API calls.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "3",
+      "Requirement_Description": "The system should be horizontally scalable to handle future growth requirements.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "4",
+      "Requirement_Description": "The system should support at least IE, Firefox, and Google Chrome browsers.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "5",
+      "Requirement_Description": "The system should be designed for no single point of failure.",
+      "Comments": ""
+    },
+    {
+      "Requirement_ID": "6",
+      "Requirement_Description": "The system should comply with UIDAI guidelines for handling and storing Aadhaar data.",
+      "Comments": ""
+    }
+  ]
 }
+
 
 st.title("Results from LLM Experimentation using Mistral")
 
