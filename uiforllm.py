@@ -9,13 +9,6 @@ Original file is located at
 
 import streamlit as st
 
-# Clear the data cache
-if st.button('Clear Cache'):
-    st.cache_data.clear()
-
-# If you're caching resources (e.g., models), clear the resource cache
-if st.button('Clear Resource Cache'):
-    st.cache_resource.clear()
 
 # Data for demonstration purposes
 data = {
